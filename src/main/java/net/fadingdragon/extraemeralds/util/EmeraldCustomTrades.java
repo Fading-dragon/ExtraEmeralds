@@ -5,7 +5,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.village.TradeOffer;
 import net.minecraft.village.VillagerProfession;
-
+import net.fadingdragon.extraemeralds.item.EmeraldItems;
 public class EmeraldCustomTrades {
     public static void registerCustomTrades() {
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.CLERIC, 5,
