@@ -22,5 +22,12 @@ public class EmeraldCustomTrades {
                     new ItemStack(Items.EMERALD, 10),
                     10, 25, 0.05f));
                 });
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.TOOLSMITH, 2,
+                factories -> {
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 3),
+                    new ItemStack(EmeraldItems.EMERALD_PICKAXE, 1),
+                    10, 25, 0.05f));
+                });
     }
 }
