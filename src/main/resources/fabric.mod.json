@@ -3,13 +3,13 @@
 	"id": "extraemeralds",
 	"version": "${version}",
 	"name": "Extra Emeralds",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds emerald-related things to Minecraft!",
 	"authors": [
 		"Fading_Dragon"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/extra-emeralds",
+		"sources": "https://github.com/Fading-dragon/ExtraEmeralds"
 	},
 	"license": "MIT",
 	"icon": "assets/extraemeralds/icon.png",
@@ -29,8 +29,8 @@
 		"extraemeralds.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.23",
-		"minecraft": "~1.20.2",
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
